@@ -54,7 +54,7 @@ You can take a look on my test Grafana dashboard to see how it may be done.
 Also script provide a services names and time recent services status in seconds,
 so you can use it in Grafana dashboards also.
 
-You can find the Grafana dashboard example in service **status.json** file or find it on grafana.com: https://grafana.com/dashboards/8348
+You can find the Grafana dashboard example in **service_status.json** file or find it on grafana.com: https://grafana.com/dashboards/8348
 
 ## Installation
 You can install it in a few ways:
