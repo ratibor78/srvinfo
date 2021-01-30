@@ -9,8 +9,8 @@
 
 Srvinfo - the standalone Python based script for checking the statuses of the systemd services, and sending them into the InfluxDB database.
 
-This software have the similar functionality with the other my application [Srvstatus] (https://github.com/ratibor78/srvstatus), but in apposite to it,
-this script don't use the [Telegraf] (https://www.influxdata.com/time-series-platform/telegraf/) for sending the data into the InfluxDB database.
+This software have the similar functionality with the other my application [Srvstatus](https://github.com/ratibor78/srvstatus), but in apposite to it,
+this script does not use the [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) for sending the data into the InfluxDB database.
 This new script was designed as standalone one, so you don't need any additional applications for getting the systemd services statistic.
 
 # Main Features:
@@ -94,13 +94,13 @@ $ systemctl start srvinfo.service
 Examples how to setup the services in the **settings.ini** file:
 ```
    [SERVICES]
-    name = docker.service nginx.service
+   name = docker.service nginx.service
 ```
   You can also add your own **user services** list same to (systemctl --user some.service):
 
 ```
    [USER_SERVICES]
-    name = syncthing.service
+   name = syncthing.service
 ```
 
 After you'll setup, modify and start the srvinfo service, you must found the services status metrics in the InfluxDB.
