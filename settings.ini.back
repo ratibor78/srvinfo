@@ -1,0 +1,25 @@
+[INTERVAL]
+# Sending data time period
+seconds = 60
+
+[SERVICES]
+# List of the SystemD services you wanna control
+name = service1.service service2.service
+
+[USER_SERVICES]
+name = some.service
+
+[INFLUXDB]
+# InfluxDB address
+host = INFLUXDB_SERVER_IP_OR_URL
+port = 8086
+
+#Database name
+database = INFLUXDB_DATABASE_NAME
+
+# HTTP Auth
+username = INFLUXDB_USER_NAME
+password = INFLUXDB_USER_PASSWORD
+
+# Measurement name (any name you like)
+measurement = services_stats
