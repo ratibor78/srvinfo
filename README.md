@@ -10,7 +10,7 @@
 Srvinfo - the standalone Python based script for checking the statuses of the systemd services, and sending them into the InfluxDB database.
 
 This software have the similar functionality with the other my application [Srvstatus](https://github.com/ratibor78/srvstatus), but in apposite to it,
-this script don't use the [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) for sending the data into the InfluxDB database.
+this script does not use the [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) for sending the data into the InfluxDB database.
 This new script was designed as standalone one, so you don't need any additional applications for getting the systemd services statistic.
 
 # Main Features:
