@@ -76,7 +76,7 @@ $ pip3 install -r requirements.txt
 2) Rename **settings.ini.back** to **settings.ini** and specify a list of services that you need to check in one string
 separated with spaces, also set all the other parameters.
 Next rename and modify the **srvinfo.service.template** file and copy into systemd directory. You need tp change the '$PWD'
-in the *srvinfo.service.template** with the path of the directory with the repository.
+in the **srvinfo.service.template** with the path of the repository directory.
 
 ```sh
 $ cp settings.ini.bak settings.ini
