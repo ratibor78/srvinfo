@@ -5,8 +5,8 @@
 ## Getting statuses for the systemd services with InfluxDB & Grafana
 
 ### Dashboard example (new_dashboard.json)
-![Alt text](https://github.com/ratibor78/srvinfo/blob/master/srvinfo1.png?raw=true "Grafana dashboard example")
-![Alt text](https://github.com/ratibor78/srvinfo/blob/master/srvinfo2.png?raw=true "Grafana dashboard example")
+![Alt text](https://github.com/ratibor78/srvinfo/blob/main/srvinfo1.png?raw=true "Grafana dashboard example")
+![Alt text](https://github.com/ratibor78/srvinfo/blob/main/srvinfo2.png?raw=true "Grafana dashboard example")
 
 ### A bit easy dashboard example (service_status.json).
 ![Alt text](https://github.com/ratibor78/servicestat/blob/master/services_grafana.png?raw=true "Grafana dashboard example")
