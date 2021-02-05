@@ -21,9 +21,8 @@ This new script was designed as standalone one, so you don't need any additional
 # Main Features:
 
 - Parsing the list of the given systemd services and sending their statuses in to the InfluxDB database.
-- Using standard python libs for maximum easy use.
+- Using standard python libs for maximum easy using.
 - Having an external **settings.ini** file for comfortable changing parameters.
-- Having a Dockerfile inside for quick building Docker image.
 - Contains an install.sh script that will do the installation process easy.
 - Runs as a systemd service for easy setup
 
